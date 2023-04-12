@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+
+main {
+    width: 100%;
+    height: fit-content;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #424242;
+    width: 100%;
+    max-width: 3000px;
+    padding: 20px;
+}
+
+.hrefs, .products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.hrefs a {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: .5s ease;
+}
+.speciall {
+    width: 1300px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: #F5F5F7;
+}
+#as {
+    color: #2D80D4;
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.texts {
+    padding: 25px;
+    display: flex;
+    gap: 80px;
+}
+
+.by-iph14 {
+    width: 100%;
+    max-width: 1920px;
+    margin: 110px 150px;
+}
+
+.text1 {
+    margin-top: 30px;
+}
+.left {
+    width: 700px;
+    
+}
+#a {
+    width: 1000px;
+    object-fit: cover;
+}
+ .imgg {
+    width: 1000px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1100px;
+    margin-left: 150px;
+    transition: .6s ease;
+   background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-finish-select-202209-6-1inch-blue?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1661026582322); 
+} 
+
+
+.right {
+    width: 30%;
+    max-width: 1920px;
+    margin: -1300px 1300px;
+   
+}
+
+.price {
+margin-top: 50px;
+width: 500px;
+height: 140px;
+border: 2px solid blue;
+border-radius: 14px;
+
+}
+.price:hover {
+    border: 3px solid blue;
+    border-radius: 14px;
+    
+}
+.ip {
+    margin: 35px 15px;
+    
+}
+.text2 {
+    margin: -20px 15px
+    
+}
+.text3 {
+    margin-left: 400px ;
+    margin-top: -85px;
+}
+.price2 {
+    margin-top: 25px;
+}
+.help {
+    margin-top: 25px;
+    width: 500px;
+    height: 140px;
+    padding: 20px;
+   background-color: #F5F5F7;
+    border-radius: 14px;
+}
+ .div {
+    width: 500px;
+    height: 100px;
+ }
+ .help:hover {
+    background-color: #e5e4e4;
+ }
+
+ .colors {
+    width: 500px;
+    margin-top: 100px;
+    height: 400px;
+    
+ }
+ .colors  h2 {
+    margin-top: 30px;
+ }
+
+ .inp {
+    width: 500px;
+    height: 90px;
+  
+    margin-top: 30px;
+     display: flex;
+     justify-content: space-between;
+    }
+
+.blue, .Purple, .Midnight, .Starlight, .Red {
+       width: 60px;
+       height: 60px;
+       border-radius: 100%;
+       background-color: red;
+       gap: 0px;
+   }
+
+.colors button {
+    border: none;
+    overflow: hidden;
+}
+.colors button:hover {
+    border: 10px solid rgb(78, 76, 76);
+}
+.blue {
+    background-color: #A9BBCD;
+}
+
+.Purple {
+    background-color: #E5DDEA;
+}
+.Midnight {
+    background-color: #3C4348;
+}
+.Starlight {
+    background-color: rgb(216, 216, 216);
+}
+.Red {
+    background-color: red;
+}
+.gb, .gbb {
+    border: 1px solid rgb(110, 110, 110);
+}
+.gb:hover,.gbb:hover {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 14px;
+}
+.gbb {
+margin-top: 25px;
+}
+.bb {
+    margin: 50px 30px;
+}
+.textgb {
+    margin-left: 300px;
+    margin-top: -100px;
+}
+.products a:hover {
+    box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+    1px 2px 4px 0px rgba(0,255,255,0.7),
+    2px 4px 8px 0px rgba(0,255,255,0.7),
+    2px 4px 16px 0px rgba(0,255,255,0.7); 
+                           
+}
+
+
+
+
+
+.modal_custom {
+    width: 1000px;
+    height: fit-content;
+    background-color: white;
+    padding: 0px;
+    border-radius: 14px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    translate: -50% -50%;   
+    display: none;
+    opacity: 1;
+    transition: .5s ease;
+    scale: .2;
+    
+}
+
+#s {
+    margin-top: 50%;
+}
+.modal_bg {
+    display: none;
+    width: 100%;
+    height: 200vh;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;  
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.close_btn{
+  width: 40px;
+  height: 40px;
+  border: none;
+  margin: 20px;
+ border-radius: 100%;
+ background-color: #f4f4f4;
+}
+
+.modal_custom a {
+    color: #2D80D4;
+    text-decoration: none;
+}
+.modalM {
+    width: 100%;
+    max-width: 1100px;
+    height: fit-content;
+    margin: 0 auto;
+}
+.topModal {
+    margin-left: 140px;
+}
+.special-deals {
+    width: 100%;
+    max-width: 800px;
+    height: fit-content;
+}
+.SD {
+    margin-left: 200px;
+}
+.take {
+    margin-top: 20px;
+}
+.take2 {
+   margin-left: 150px;
+}
+.brands {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.brand {
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    
+}
+.verizon {
+    background-color: #F5F5F7;
+    color: black;
+}
+.selectPhone {
+    width: 500px;
+    height: 50px;
+    border-color: #A9BBCD;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+    outline: none;
+    font-size: 18px;
+}
+.modalHH {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.downModal {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 50px;
+    height: fit-content;
+    background-color: #F5F5F7;
+}
+
+.bText {
+    color:#b6b6b8;
+    font-size: 12px;
+    margin-top: 200px;
+    
+    
+}
+.b2 {
+    margin-top: 15px;
+}
+.bigTexts {
+    margin-left: 140px;
+    margin-top: -200px;
+}
+.accordions {
+    margin-left: 100px;
+
+}
+.accordion {
+    width: 800px;
+    height: 90px;
+    overflow: hidden;
+    padding: 25px;
+}
+.accordions .hr {
+    margin-top: 10px;
+    background-color: rgb(203, 203, 203);
+    width: 800px;
+    height: 1px;
+    outline: none;
+}
+.item {
+    display: flex;
+    gap: 130px;
+}
+.acontent {
+    margin-top: 25px;
+    transition: .5s ease-in-out;
+    max-height: 0px;
+    overflow: hidden;
+}
+.aleft {
+    font-size: 24px;
+}
+.aright p {
+    color:#b6b6b8;
+}
+.person {
+    margin-left:450px;
+}
+.person img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.person a {
+    color: #2D80D4;
+    text-decoration: none;
+    margin-left: -40px;
+}
+.person p {
+    margin-left: -100px;
+}
+.kefteme {
+   width: 100px;
+   height: 20px;
+   display: block;
+   margin-left: -20px;
+}

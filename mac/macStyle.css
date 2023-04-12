@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+main {
+    width: 100%;
+    max-width: 1920px;
+    margin: 50px auto;
+  
+   
+}
+.texts {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.info {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+
+.macbook {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    
+    display: flex;
+    gap: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.left {
+    width: 250px;
+    height: 250px;
+    background-image: url('./whitemac.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: .5s ease;
+}
+.right h1 {
+    font-size: 37px;
+}
+.color {
+    margin-bottom: 70px;
+    color: #0071E3;
+    transition: .5s ease;
+}
+.buttons {
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+    align-items: center;
+
+}
+.changecolor {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    align-items: center;
+    padding-left: 100PX;
+    gap: 20px;
+    display: flex;
+  
+}
+.changebtn {
+    all: unset;
+    color: grey;
+    text-align: center;
+    width: 155px;
+    height: 42px;
+    background: #CFE7FF;
+    border-radius: 13px;    
+    transition: .5s ease;
+}
+.active {
+    color: rgb(255, 255, 255);
+    background-color: #0071E3;
+    transition: .5s ease;
+}
+.buttons button {
+   margin-left: 100px;
+   margin-bottom: 10px;
+}
+
+.btnbtn {
+    margin: 0 auto;
+    display: block;
+    all: unset;
+    width: 100%;
+    max-width: 330px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 14px;
+    border: 2px solid #CFE7FF;
+    transition: .5 ease;
+}
+.btnbtn h3 {
+    margin: 10px;
+}
+.btnbtn span {
+    margin: 10px;
+}
+.btnActive {
+    border-color: #007FFF;
+
+}
+.openmodal {
+    color: white;
+    margin: 25px;
+}
+.hamb {
+    width: 20px;
+}
+.modal {
+    width: 400px;
+    height: 1100px;
+    background-color: black;
+    position: absolute;
+    left: -30%;
+    margin-top: -50px;
+    transition: .5s ease;
+    /* display: none; */
+   
+}
+.modal p {
+ font-size: 24px;
+ font-weight: 600;
+ color: white;
+}
