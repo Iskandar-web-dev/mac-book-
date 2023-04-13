@@ -52,3 +52,21 @@ function closeModal() {
 }
 
 // start iphone functions
+let accordion = document.querySelectorAll('.accordion')
+let hr = document.querySelector('.hropen')
+
+accordion.forEach((el) => {
+
+el.onclick = () => {
+    let ac = hr.nextElementSibling
+
+    if(ac.style.maxHeight) {
+        document.querySelectorAll('.acontent').forEach((i) => i.style.maxHeight = null)
+    } else {
+        document.querySelectorAll('.acontent').forEach((i) => i.style.maxHeight = null)
+        ac.style.maxHeight = '1000px'
+    }
+  
+  
+}
+})
